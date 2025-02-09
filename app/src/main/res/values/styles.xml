@@ -1,0 +1,10 @@
+<resources>
+    <!-- Fix the missing CalcButton style -->
+    <style name="CalcButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/teal_200</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
