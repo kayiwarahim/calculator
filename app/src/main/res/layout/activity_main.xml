@@ -6,28 +6,29 @@
     android:padding="16dp">
 
     <!-- Display Area -->
+
+    <!-- Buttons Grid -->
     <TextView
         android:id="@+id/inputTextView"
-        android:layout_width="match_parent"
+        android:layout_width="346dp"
         android:layout_height="wrap_content"
-        android:textSize="32sp"
         android:gravity="end"
         android:padding="8dp"
-        android:text="0" />
+        android:text="0"
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="match_parent"
+        android:layout_width="351dp"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
         android:gravity="end"
         android:padding="8dp"
-        android:text="" />
+        android:text=""
+        android:textSize="28sp" />
 
-    <!-- Buttons Grid -->
     <GridLayout
         android:layout_width="478dp"
-        android:layout_height="371dp"
+        android:layout_height="267dp"
         android:columnCount="4"
         android:paddingTop="16dp"
         android:rowCount="5">
@@ -35,11 +36,12 @@
         <Button
             android:id="@+id/btnOpenBracket"
             style="@style/CalcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="(" />
 
         <Button
             android:id="@+id/btnCloseBracket"
-            style="@style/CalcButton"
             android:text=")" />
 
         <Button
