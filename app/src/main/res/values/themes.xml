@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="android:background">@color/teal_200</item>
+        <item name="android:background">@color/teal_200</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@android:color/holo_orange_dark</item>
         <item name="android:gravity">bottom</item>
     </style>
-
 </resources>
